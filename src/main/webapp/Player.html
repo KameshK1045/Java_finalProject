@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cricbuzz</title>
+<link rel="icon" type="image/png" href="k.png">
+<link href="NewFile.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Antonio:wght@500&family=League+Spartan:wght@700&family=Open+Sans&family=Roboto:wght@100;300&family=Source+Sans+Pro&family=Teko:wght@500&display=swap" rel="stylesheet">
+</head>
+<body onload="cookieCheck()">
+<div id="wholecontainer">
+<div class="menu">
+<div class="profile"></div>
+<div id="profileAdmin" onclick="yourDetails()">Profile</div>
+<div id ="match" onclick="matchdetails()">Match Details</div>
+<div id = "updates" onclick = "updatetheDetails()">Edit</div>
+<div id = "stats" onclick = "stats()">Stats</div>
+</div>
+<div id="main">
+<div id="addform" style="display:none">
+<div id = "pldetails">
+<div id = "detpl">
+<div id = "detName"></div>
+<div id = "detPhone"></div>
+<div id = "detState"></div>
+<div id = "detbirth"></div>
+</div>
+<div id = "proImage"></div>
+</div>
+<button id ="logout" value="" onclick="logout()">Logout</button>
+</div>
+<div id="addform1" style="display:none">
+<div id = matchboard></div>
+</div>
+<div id="addform2" style="display:none">
+<div id = "updatecard">
+<input type = "text" id = plNameUpdate value="" placeholder="Enter your name"/>
+<input type = "text" id = plstateUpdate value="" placeholder="Enter your State"/>
+<input type = "date" id = pldateUpdate value=""placeholder="Enter your Date Of Birth"/>
+<button type ="submit" id="submission" onclick = "updatetheDetails2()">SUBMIT</button>
+</div>
+</div>
+<div id = "addform3" style="display:none">
+<div id = "statcard">
+<label>RUNS</label>
+<div id = "runs"></div>
+<label>HIGHEST SCORE</label>
+<div id = "hs"></div>
+<label>MATCHES</label>
+<div id = "matchesNos"></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

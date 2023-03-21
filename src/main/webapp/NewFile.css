@@ -1,0 +1,1310 @@
+@charset "UTF-8";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+}
+#log {
+  width: 20%;
+  height: 40%;
+  border-radius: 10px;
+  display: flex;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+
+#logins {
+  width: 60%;
+  height: 10%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+}
+
+#userName {
+  width: 80%;
+  height: 10%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#passWord {
+  width: 80%;
+  height: 10%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#profileNumber {
+  width: 80%;
+  height: 10%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#newPassword {
+  width: 80%;
+  height: 10%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#confirmpassword {
+  width: 80%;
+  height: 10%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.forget {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#forgetPasswordDiv {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  display: none;
+  border: 2px solid white;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+
+#wholecontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  background: black;
+  background-size: cover;
+}
+
+.menu {
+  width: 15%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+#main {
+  width: 85%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+.profile {
+  width: 100%;
+  height: 25%;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-image: url("Logo1.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#match {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#teamadd {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#updates {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profileAdmin {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but {
+  background: none;
+}
+#player {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#add {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#details {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stats {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#addform {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.title {
+  width: 60%;
+  height: 20%;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 60%;
+  height: 70%;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.reg {
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+#addform1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#addform4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#addform5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.title1 {
+  width: 60%;
+  height: 20%;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form1 {
+  width: 60%;
+  height: 70%;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+#teams {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#Captain {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#teamName {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#team1 {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#team2 {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#overs {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#matchNo {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#tName {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#place {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#date {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.submit {
+  width: 80%;
+  height: 10%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+}
+#submission {
+  width: 80%;
+  height: 10%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+}
+#submitAdd {
+  width: 50%;
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#nextButton {
+  width: 50%;
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#submitMatch {
+  width: 50%;
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#no {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#name {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#state {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#role {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#addform3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#addform2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#plname1 {
+  width: 26%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#plphone1 {
+  width: 18%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#plstate1 {
+  width: 18%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pldob1 {
+  width: 18%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#plrole1 {
+  width: 18%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pl {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  color: white;
+}
+
+#pldetails {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  color: white;
+}
+#updatecard {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+#statcard {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+#proAdmin {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  color: white;
+}
+
+#matchStart {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+#toss {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+#checkList {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid white;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  color: white;
+}
+#matchboard {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  color: white;
+}
+#matchshow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#matchshowId {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#matchshowName {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#matchshowPlace {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#matchshowDate {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#runs {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hs {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#matchesNos {
+  width: 30%;
+  height: 10%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#teamAndCaptain {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid white;
+  flex-wrap: wrap;
+  color: white;
+}
+.n {
+  width: 26%;
+  height: 15%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  width: 18%;
+  height: 15%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s {
+  width: 18%;
+  height: 15%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d {
+  width: 18%;
+  height: 15%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r {
+  width: 18%;
+  height: 15%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.namesvekka {
+  width: 20%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.namesForPlayer {
+  width: 20%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#proImage {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid white;
+  background-image: url("gmast.png");
+  background-size: 100% 100%;
+}
+
+#adDetails {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#adname {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#adname:hover {
+  background-color: white;
+}
+
+#adphone {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#adphone:hover {
+  background-color: white;
+}
+#adState {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#adState:hover {
+  background-color: white;
+}
+
+#adbirth {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#adbirth:hover {
+  background-color: white;
+}
+
+#adImage {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid white;
+  background-image: url("kamesh.png");
+  background-size: cover;
+}
+#detpl {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#detName {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#detName:hover {
+  background-color: white;
+}
+
+#detPhone {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detPhone:hover {
+  background-color: white;
+}
+#detState {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detState:hover {
+  background-color: white;
+}
+
+#detbirth {
+  width: 80%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detbirth:hover {
+  background-color: white;
+}
+#logout {
+  width: 15%;
+  height: 4%;
+  border: 1px solid red;
+  background: red;
+  font-weight: bold;
+  color: white;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#fteam {
+  width: 30%;
+  height: 30%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#steam {
+  width: 30%;
+  height: 30%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#coin {
+  width: 30%;
+  height: 30%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#usa {
+  width: 100%;
+  height: 100%;
+}
+#h {
+  width: 100%;
+  height: 100%;
+}
+#t {
+  width: 100%;
+  height: 100%;
+}
+#chosen {
+  width: 60%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#call {
+  width: 20%;
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+}
+#addform6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#addform7 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#results {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  color: white;
+  overflow-y: hidden;
+}
+
+#team1result {
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#team2result {
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#scorecard {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+#scorecardName {
+  width: 100%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team1playerscore {
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+#team2playerscore {
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.playerwithscore {
+  width: 100%;
+  height: 10%;
+  /* 	border:1px solid white; */
+  display: flex;
+}
+.playerNames {
+  width: 80%;
+  height: 100%;
+  /* 	border:1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scoreOfplayer {
+  width: 20%;
+  height: 100%;
+  /* 	border:1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team1NameForResult {
+  width: 70%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team2NameForResult {
+  width: 70%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team1score {
+  width: 70%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team2score {
+  width: 70%;
+  height: 10%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchbar {
+  width: 80%;
+  height: 10%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+#search {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  color: white;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+#search2 {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  color: white;
+  font-family: "Alkalami", serif;
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+#plNameUpdate {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#plstateUpdate {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#pldateUpdate {
+  width: 80%;
+  height: 10%;
+  border: none;
+  background: none;
+  border-bottom: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#teamShow {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  color: white;
+  overflow-y: hidden;
+}
+#playerNameForTeam {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  color: white;
+  overflow-y: hidden;
+}
+#SubmitForTeam {
+  width: 50%;
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #4bb4f8;
+  color: white;
+  border: 2px solid #4bb4f8;
+  border-radius: 5px;
+  margin-top: 15px;
+}
